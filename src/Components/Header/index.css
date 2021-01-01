@@ -1,0 +1,13 @@
+.span {
+    border-bottom: 2px solid #E95652;
+    padding-bottom: 2px;
+    color: #E95652;
+    font-weight: 600;
+}
+
+.noSpan {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 2px;
+    color: #fff;
+    font-weight: 600;
+}

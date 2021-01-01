@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="211px" height="204px" viewBox="0 0 211 204" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Data Illustration</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="1_Factorie-Website_Main" transform="translate(-257.000000, -1695.000000)" stroke="#293557">
+            <g id="How-it-works" transform="translate(0.000000, 1358.000000)">
+                <g id="Data-Illustration" transform="translate(260.000000, 339.000000)">
+                    <g id="Inventory" transform="translate(85.000000, 74.000000)" stroke-linejoin="round" stroke-width="4">
+                        <path d="M0,6.08713599 L0,2 C0,0.8954305 0.8954305,0 2,0 L48,0 C49.1045695,0 50,0.8954305 50,2 L50,58 C50,59.1045695 49.1045695,60 48,60 L2,60 C0.8954305,60 0,59.1045695 0,58 L0,13.1293304" id="Shape" fill="#FACD48"></path>
+                        <path d="M12.5,15 L37.5,15" id="Path-39"></path>
+                        <path d="M12.5,30 L37.5,30" id="Path-39"></path>
+                        <path d="M12.5,45 L37.5,45" id="Path-39"></path>
+                    </g>
+                    <g id="Group-10" transform="translate(159.000000, 21.000000)" fill="#53B87B" fill-rule="nonzero" stroke-width="3.5">
+                        <ellipse id="Oval" cx="17.9435123" cy="10.815298" rx="10.0141176" ry="10.08623"></ellipse>
+                        <path d="M12.5237692,25.9209766 C12.6605812,25.8763045 12.8113979,25.8897773 12.9367246,25.9578669 C14.4920927,26.8028936 16.6324859,27.0580742 18.4766606,27.0580742 C20.2947186,27.0580742 22.0424256,26.6188835 23.5823289,25.7964029 C23.7081494,25.7292007 23.8590164,25.7167551 23.9954437,25.7623236 C31.4369301,28.2478753 36.7726203,35.4276854 36.7726203,42.9973861 C36.7726203,43.2544092 36.5501384,43.4627675 36.275693,43.4627675 L0.496927302,43.4627675 C0.222481931,43.4627675 9.23705556e-14,43.2544092 9.23705556e-14,42.9973861 C9.23705556e-14,37.3728447 2.94511863,31.966398 7.50786729,28.5388579" id="Path"></path>
+                    </g>
+                    <path d="M154.903527,18.3269842 C141.371091,11.0981149 125.914128,7 109.5,7 C56.2045216,7 13,50.2045216 13,103.5 C13,106.878462 13.1736147,110.216373 13.5124089,113.5053 M49.8205203,179.337913 C66.2424349,192.278716 86.9695162,200 109.5,200 C162.795478,200 206,156.795478 206,103.5 C206,94.1784562 204.678327,85.1656058 202.212153,76.638622" id="Shape" stroke-width="4" stroke-linejoin="round"></path>
+                    <g id="Assets-icon" transform="translate(0.000000, 107.000000)" stroke-linejoin="round" stroke-width="4.2">
+                        <path d="M0,57.2902916 L59.8431206,57.2902916" id="Path-30"></path>
+                        <polygon id="Path-31" fill="#54C7E6" transform="translate(13.003336, 49.146426) scale(-1, 1) rotate(10.000000) translate(-13.003336, -49.146426) " points="5.06372665 58.6341008 6.10561571 40.9745239 13.5677291 39.658752 20.9429454 56.0159565"></polygon>
+                        <circle id="Oval" fill="#54C7E6" cx="14.4374178" cy="33.2294089" r="6"></circle>
+                        <polyline id="Path-32" points="18.2748128 21.4287363 43.2 3.75381521 20.4235354 30.3630043"></polyline>
+                        <circle id="Oval" cx="45.6" cy="2.4" r="2.4"></circle>
+                        <polyline id="Path-33" points="45.5301206 27.2294089 38.4374178 31.8662313 38.4374178 35.10762"></polyline>
+                        <polyline id="Path-33" transform="translate(49.183769, 31.168514) scale(-1, 1) translate(-49.183769, -31.168514) " points="52.7301206 27.2294089 45.6374178 31.8662313 45.6374178 35.10762"></polyline>
+                        <path d="M45.6,5.4223544 L45.6,27.2714543" id="Path-3"></path>
+                        <polygon id="Path-4" fill="#54C7E6" points="38.4275465 57.111263 38.4275465 46.0039657 53.267996 46.0039657 53.267996 57.2902916"></polygon>
+                    </g>
+                    <polyline id="Shape" stroke-width="4" stroke-linejoin="round" transform="translate(144.000000, 13.000000) rotate(-18.000000) translate(-144.000000, -13.000000) " points="154 3 154 23 134 23"></polyline>
+                    <polyline id="Shape" stroke-width="4" stroke-linejoin="round" transform="translate(61.000000, 187.000000) scale(-1, -1) rotate(-11.000000) translate(-61.000000, -187.000000) " points="71 177 71 197 51 197"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

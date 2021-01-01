@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="178px" height="218px" viewBox="0 0 178 218" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Hex/White</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="180" height="228"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1_Factorie-Website_Main" transform="translate(0.000000, -627.000000)">
+            <g id="Hex/White" transform="translate(0.000000, 622.000000)">
+                <g id="Group" transform="translate(90.000000, 114.000000) scale(-1, 1) translate(-90.000000, -114.000000) ">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Rectangle"></g>
+                    <polygon id="Polygon" stroke-opacity="0.2" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" transform="translate(161.000000, 171.000000) scale(-1, 1) rotate(90.000000) translate(-161.000000, -171.000000) " points="161 114 210.363448 142.5 210.363448 199.5 161 228 111.636552 199.5 111.636552 142.5"></polygon>
+                    <polygon id="Polygon" stroke-opacity="0.2" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" transform="translate(62.000000, 114.000000) scale(-1, 1) rotate(90.000000) translate(-62.000000, -114.000000) " points="62 57 111.363448 85.5 111.363448 142.5 62 171 12.636552 142.5 12.636552 85.5"></polygon>
+                    <polygon id="Polygon" stroke-opacity="0.2" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" transform="translate(161.000000, 57.000000) scale(-1, 1) rotate(90.000000) translate(-161.000000, -57.000000) " points="161 0 210.363448 28.5 210.363448 85.5 161 114 111.636552 85.5 111.636552 28.5"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

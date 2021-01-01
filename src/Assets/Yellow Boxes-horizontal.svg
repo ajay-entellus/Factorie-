@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="268px" height="26px" viewBox="0 0 268 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icon/Yellow Boxes-horizontal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="1_Factorie-Website_Main" transform="translate(-588.000000, -1787.000000)">
+            <g id="How-it-works" transform="translate(0.000000, 1358.000000)">
+                <g id="Icon/Yellow-Boxes-horizontal" transform="translate(590.000000, 430.000000)">
+                    <path d="M0,13 L264,13" id="Path-2" stroke="#D5D5D5" stroke-width="4"></path>
+                    <g id="Inventory" transform="translate(39.000000, 0.000000)" stroke="#293557" stroke-width="1.6">
+                        <path d="M0,2.43485439 L0,0.8 C0,0.3581722 0.3581722,0 0.8,0 L19.2,0 C19.6418278,0 20,0.3581722 20,0.8 L20,23.2 C20,23.6418278 19.6418278,24 19.2,24 L0.8,24 C0.3581722,24 0,23.6418278 0,23.2 L0,5.25173215" id="Shape" fill="#FACD48"></path>
+                        <path d="M5,6 L15,6" id="Path-39"></path>
+                        <path d="M5,12 L15,12" id="Path-39"></path>
+                        <path d="M5,18 L15,18" id="Path-39"></path>
+                    </g>
+                    <g id="Inventory-Copy" transform="translate(94.000000, 0.000000)" stroke="#293557" stroke-width="1.6">
+                        <path d="M0,2.43485439 L0,0.8 C0,0.3581722 0.3581722,0 0.8,0 L19.2,0 C19.6418278,0 20,0.3581722 20,0.8 L20,23.2 C20,23.6418278 19.6418278,24 19.2,24 L0.8,24 C0.3581722,24 0,23.6418278 0,23.2 L0,5.25173215" id="Shape" fill="#FACD48"></path>
+                        <path d="M5,6 L15,6" id="Path-39"></path>
+                        <path d="M5,12 L15,12" id="Path-39"></path>
+                        <path d="M5,18 L15,18" id="Path-39"></path>
+                    </g>
+                    <g id="Inventory-Copy-2" transform="translate(149.000000, 0.000000)" stroke="#293557" stroke-width="1.6">
+                        <path d="M0,2.43485439 L0,0.8 C0,0.3581722 0.3581722,0 0.8,0 L19.2,0 C19.6418278,0 20,0.3581722 20,0.8 L20,23.2 C20,23.6418278 19.6418278,24 19.2,24 L0.8,24 C0.3581722,24 0,23.6418278 0,23.2 L0,5.25173215" id="Shape" fill="#FACD48"></path>
+                        <path d="M5,6 L15,6" id="Path-39"></path>
+                        <path d="M5,12 L15,12" id="Path-39"></path>
+                        <path d="M5,18 L15,18" id="Path-39"></path>
+                    </g>
+                    <g id="Inventory-Copy-3" transform="translate(204.000000, 0.000000)" stroke="#293557" stroke-width="1.6">
+                        <path d="M0,2.43485439 L0,0.8 C0,0.3581722 0.3581722,0 0.8,0 L19.2,0 C19.6418278,0 20,0.3581722 20,0.8 L20,23.2 C20,23.6418278 19.6418278,24 19.2,24 L0.8,24 C0.3581722,24 0,23.6418278 0,23.2 L0,5.25173215" id="Shape" fill="#FACD48"></path>
+                        <path d="M5,6 L15,6" id="Path-39"></path>
+                        <path d="M5,12 L15,12" id="Path-39"></path>
+                        <path d="M5,18 L15,18" id="Path-39"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

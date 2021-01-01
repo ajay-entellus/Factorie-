@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="253px" height="168px" viewBox="0 0 253 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Insights Illustration</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1_Factorie-Website_Main" transform="translate(-959.000000, -1713.000000)" stroke="#293557">
+            <g id="How-it-works" transform="translate(0.000000, 1358.000000)">
+                <g id="Insights-Illustration" transform="translate(961.000000, 357.000000)">
+                    <g id="Group-6">
+                        <polyline id="Path" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="0 27.0563965 0 -2.77449578e-12 198 -2.67751203e-12 198 147 1.05515596e-12 147 0 37.7323489"></polyline>
+                        <g id="Group-4" transform="translate(115.000000, 29.205813)" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon id="Path-40" stroke-width="3.5" fill="#53B87B" fill-rule="nonzero" points="0 27.7105413 15.8749659 18.7180109 28.8424788 24.0417795 50 12.7941875 50 44.7941875 0 44.7182437"></polygon>
+                            <polyline id="Path-5" stroke-width="4" points="0.16 3.19744231e-14 0.16 44.8106276 56.986564 44.8106276"></polyline>
+                        </g>
+                        <g id="Group-3" transform="translate(34.000000, 29.000000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                            <circle id="Oval" fill="#FFFFFF" cx="20.5" cy="20.5" r="20.5"></circle>
+                            <path d="M20.5,41 C31.8218374,41 41,31.8218374 41,20.5 C41,9.17816263 31.8218374,0 20.5,0 C20.5,6.11877509 20.5,12.9521084 20.5,20.5 C15.5826591,24.7317748 10.4953822,29.2941109 5.23816928,34.1870082 C8.99127991,38.3691532 14.4384064,41 20.5,41 Z" id="Oval" fill="#54C7E6"></path>
+                        </g>
+                        <path d="M71,164 L127,164" id="Path-9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <rect id="Rectangle" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" x="88" y="147" width="22" height="17"></rect>
+                        <g id="Group-2" transform="translate(34.000000, 99.000000)" fill="#FACD48" stroke-width="4">
+                            <path d="M2,2 L2,40 L10,40 L10,2 L2,2 Z" id="Rectangle"></path>
+                            <path d="M22,6 L22,40 L30,40 L30,6 L22,6 Z" id="Rectangle"></path>
+                            <path d="M42,10 L42,40 L50,40 L50,10 L42,10 Z" id="Rectangle"></path>
+                            <path d="M62,14 L62,40 L70,40 L70,14 L62,14 Z" id="Rectangle"></path>
+                            <path d="M102,6 L102,40 L110,40 L110,6 L102,6 Z" id="Rectangle"></path>
+                            <path d="M122,2 L122,40 L130,40 L130,2 L122,2 Z" id="Rectangle"></path>
+                            <path d="M82,10 L82,40 L90,40 L90,10 L82,10 Z" id="Rectangle"></path>
+                        </g>
+                        <polygon id="Rectangle" stroke-width="4" fill="#D8D8D8" stroke-linecap="round" stroke-linejoin="round" points="0 137 198 137 198 147 -1.76889753e-14 147"></polygon>
+                    </g>
+                    <g id="Group-7" transform="translate(208.000000, 72.000000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                        <rect id="Rectangle" x="0" y="0" width="41" height="76"></rect>
+                        <g id="Group-3" transform="translate(7.000000, 20.000000)">
+                            <circle id="Oval" fill="#FFFFFF" cx="13.5" cy="13.5" r="13.5"></circle>
+                            <path d="M13.5,27 C20.9558441,27 27,20.9558441 27,13.5 C27,6.04415588 20.9558441,0 13.5,0 C13.5,4.02943725 13.5,8.52943725 13.5,13.5 C10.2617511,16.2867785 6.91159313,19.2912438 3.44952611,22.5133956 C5.92108677,25.2674911 9.50821882,27 13.5,27 Z" id="Oval" fill="#54C7E6"></path>
+                        </g>
+                        <circle id="Oval" fill="#D8D8D8" cx="20.5" cy="65.5" r="4.5"></circle>
+                        <polygon id="Path-6" fill="#D8D8D8" points="9 0 13 7 27 7 31 0"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

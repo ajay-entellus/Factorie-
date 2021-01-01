@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="554px" height="482px" viewBox="0 0 554 482" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Polygon Behind Image</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.3">
+        <g id="1_Factorie-Website_Main" transform="translate(-61.000000, -4348.000000)" stroke="#53B87B" stroke-width="5">
+            <g id="team" transform="translate(0.000000, 4058.000000)">
+                <path d="M338,256.113249 L576.05891,393.556624 L576.05891,668.443376 L338,805.886751 L99.9410902,668.443376 L99.9410902,393.556624 L338,256.113249 Z" id="Polygon-Behind-Image" transform="translate(338.000000, 531.000000) rotate(90.000000) translate(-338.000000, -531.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
