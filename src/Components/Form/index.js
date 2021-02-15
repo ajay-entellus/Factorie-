@@ -71,7 +71,7 @@ class Form extends Component {
                     ? "Email is not valid!"
                     : '';
             case 'phone':
-                if (this.validateNumber(value)) {
+                if (value && this.validateNumber(value)) {
                     return "Enter only numbers";
                 }
                 return !!value && value.length === 10 ? '' : "Enter a valid number";
@@ -98,7 +98,7 @@ class Form extends Component {
         const { error, validator } = this.state;
 
         const errMsg = this.validator(e)
-        if (errMsg) {
+        if (errMsg && e.target.value.length > 0) {
             error[e.target.name] = errMsg
             validator[e.target.name] = errMsg
             this.setState({ 'button': false })
@@ -145,19 +145,34 @@ class Form extends Component {
                 </Box >
                 <form noValidate autoComplete="off">
                     <Box display="flex" flexDirection={{ xs: 'column', md: "row" }} className={classes.box}>
-                        <TextField label='Name' type="text" name='name' onBlur={this.validateField} onChange={this.onChange} required
-                            error={(this.state.error.name && true) || false}
-                        />
-                        <TextField label='Email' type="email" name='email' onBlur={this.validateField} onChange={this.onChange} required
-                            error={(this.state.error.email && true) || false} />
+                        <Box height='50px' className={classes.box}>
+                            <TextField label='Name' type="text" name='name'
+                                onBlur={this.validateField}
+                                onChange={this.onChange} required
+                                error={(this.state.error.name && true) || false}
+                                helperText={this.state.error.name ? this.state.error.name : ''}
+                            />
+                        </Box>
+                        <Box height='50px' className={classes.box}>
+                            <TextField label='Email' type="email" name='email' onBlur={this.validateField} onChange={this.onChange} required
+                                error={(this.state.error.email && true) || false}
+                                helperText={this.state.error.email ? this.state.error.email : ''}
+                            />
+                        </Box>
                     </Box>
                     <Box display="flex" flexDirection={{ xs: 'column', md: "row" }} className={classes.box}>
-                        <TextField label="Phone" type="number" name='phone' onBlur={this.validateField} onChange={this.onChange} required
-                            error={(this.state.error.phone && true) || false} />
-                        <TextField label="Subject" type="text" name='subject' onBlur={this.validateField} onChange={this.onChange}
-                            error={(this.state.error.subject && true) || false} />
+                        <Box height='50px' className={classes.box}>
+                            <TextField label="Phone" type="number" name='phone' onBlur={this.validateField} onChange={this.onChange} required
+                                error={(this.state.error.phone && true) || false}
+                                helperText={this.state.error.phone ? this.state.error.phone : ''}
+                            />
+                        </Box>
+                        <Box height='50px' className={classes.box}>
+                            <TextField label="Subject" type="text" name='subject' onBlur={this.validateField} onChange={this.onChange}
+                                error={(this.state.error.subject && true) || false} />
+                        </Box>
                     </Box>
-                    <Box display="flex" flexDirection={{ xs: 'column', md: "row" }} className={classes.message}>
+                    <Box display="flex" flexDirection={{ xs: 'column', md: "row" }} className={classes.message} h='50px'>
                         <TextField label="Message" type="text" name='message' onBlur={this.validateField} onChange={this.onChange}
                             error={(this.state.error.message && true) || false} />
                     </Box>

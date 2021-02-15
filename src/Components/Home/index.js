@@ -16,10 +16,14 @@ class Home extends Component {
                     position='relative'
                     height={{ xs: '500px', sm: '600px', md: '850px', lg: "850px" }}>
 
-                    <Box maxWidth={{ xs: "400", sm: "600px", md: "850px", lg: "1000px" }} className={classes.home}>
-                        <Title title="manufacture with efficiency" />
-                        <Box paddingLeft={{ md: '100px', lg: '100px' }} fontSize={{ xs: "", md: '40px' }} mt="20px" mb={{ md: "100px" }}>Increase profitability by planning the projects,
-                        tracking the performance of machines, guaging the productivity
+                    <Box maxWidth={{ xs: "400", sm: "600px", md: "940px", lg: "940px" }} className={classes.home}>
+                        <Title title="manufacture with efficiency" fontSize='72px' />
+                        <Box paddingLeft={{ md: '100px', lg: '100px' }}
+                            fontSize={{ xs: "", md: '30px', lg: "30px" }}
+                            mt="20px"
+                            mb={{ md: "100px" }}
+                        >Increase profitability by planning the projects,
+                            tracking the performance of machines, guaging the productivity
                          of employees and defining quality standards</Box>
                     </Box>
                     <Box position='absolute'
@@ -42,9 +46,10 @@ class Home extends Component {
                         <Box width={{ sm: 'auto', md: '100%' }} className={classes.about} >
                             <Box ml={{ md: "-100px" }} pb={{ xs: '20px' }}><Title title="about factorie" /></Box>
                             <Box
-                                color=" #293557"
-                                fontSize={{ xs: '16px', md: '20px' }}
-                                width={{ md: "300px", lg: "400px" }}
+                                color="#293557"
+                                fontSize={{  md: '20px' }}
+                                width={{ md: "400px", lg: "500px" }}
+                                lineHeight="33px"
                             >
                                 Factorie is an industrial IoT-driven <strong>intelligent ecosystem </strong>
                                 that manages your production planning, increases production &
@@ -52,8 +57,6 @@ class Home extends Component {
                                 helps bolster workforce efficiency and assesses the financial
                                 viability of your factory.</Box>
                         </Box>
-
-
                         <Box
                             flex='1'
                             zIndex='99'

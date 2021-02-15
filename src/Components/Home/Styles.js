@@ -26,7 +26,7 @@ export default {
         },
     },
     watermark: {
-        width: "1000px",
+        width: "1050px",
         '@media (max-width: 1200px)':
             { width: "700px", },
         '@media (max-width: 1024px)':
@@ -38,7 +38,9 @@ export default {
 
     about: {
         backgroundColor: "#F1F1F1",
-        padding: '110px 50px 110px 100px',
+        padding: '100px 50px 100px 100px',
+        '@media (max-width: 1200px)':
+            { },
         '@media (max-width: 756px)': {
             textAlign: "center",
             padding: "40px 24px"
@@ -47,13 +49,13 @@ export default {
     },
     dashboard: {
         width: "800px",
-        height: "550px",
+        height: "600px",
         position: "absolute", bottom: '0', right: '0',
         '@media (max-width: 1200px)':
             { width: "600px", },
         '@media (max-width: 1024px)':
-            { width: "550px", height: "500px", },
-        '@media (max-width: 970px)':
+            { width: "500px", },
+        '@media (max-width: 960px)':
         {
             width: "-webkit-fill-available", height: "500px", position: "inherit",
             paddingTop: "40px",

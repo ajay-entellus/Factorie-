@@ -74,10 +74,10 @@ export default {
     box: {
         // background: '#293557',
         "& > *": {
-            margin: '10px 20px 10px 0px',
+            margin: '10px 20px 14px 0px',
             width: "280px",
             '@media (max-width: 1100px)': {
-                margin: '10px 20px 10px 0px',
+                margin: '10px 20px 14px 0px',
                 width: "250px",
             },
         },
@@ -85,7 +85,7 @@ export default {
     },
     message: {
         "& > *": {
-            margin: '10px 20px 10px 0px',
+            margin: '15px 20px 14px 0px',
             width: "580px",
             '@media (max-width: 1100px)': {
                 width: "520px",
@@ -109,7 +109,7 @@ export default {
         cursor: 'no-drop',
         marginTop: "40px"
     },
-    activeButton:{
+    activeButton: {
         background: '#E95652',
         border: "1px solid",
         borderColor: 'E95652',

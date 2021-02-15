@@ -78,7 +78,7 @@ class FactorieAccordion extends Component {
                         >
                             <AccordionSummary
                                 aria-controls="panel1d-content"
-                                expandIcon={<img src={ARROW} alt="" />}
+                                expandIcon={<img src={ARROW} alt="" style={{ transform: 'rotate(180deg)' }} />}
                                 id="panel1d-header"
                                 classes={{ root: classes.AccordionSummary, content: classes.content }}
                             >

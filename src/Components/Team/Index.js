@@ -5,7 +5,7 @@ import Form from '../Form'
 import Title from '../Title'
 
 import POLYGON_LARGE from '../../Assets/Polygon Behind Image.svg'
-import PROFILE from '../../Assets/Jitendra.png'
+import PROFILE from '../../Assets/Jitendra1.png'
 import Styles from './Styles'
 
 
@@ -24,8 +24,10 @@ class Team extends Component {
                             <Box position="absolute" bottom='100px' left="0">
                                 <img src={POLYGON_LARGE} width='450px' alt="" />
                             </Box>
-                            <Box position="absolute" bottom='0' left="40px">
-                                <img src={PROFILE} style={{ display: 'block' }} alt="profile" width="400px" height='500px' />
+                            <Box position="absolute" bottom='0' left="0px">
+                                {/* <img src={PROFILE} style={{ display: 'block' }} alt="profile" width="400px" height='500px' /> */}
+                                <img src={PROFILE} style={{ display: 'block' }} alt="profile" width="400px" height='400px' />
+
                             </Box>
                         </Box>
                         <Box id={this.props.ids}><Contact /></Box>
@@ -48,8 +50,8 @@ class Team extends Component {
                                 <Box>
                                     <img src={POLYGON_LARGE} width='300px' height='300px' alt="" />
                                 </Box>
-                                <Box position="absolute" top='0px' left="40px" right='0' bottom='60px' display='flex' justifyContent='center' alignItems='center'>
-                                    <img src={PROFILE} alt="profile" width="300px" height='310px' />
+                                <Box position="absolute" top='0' left="0" right='0' bottom='-50px' display='flex' justifyContent='center' alignItems='center'>
+                                    <img src={PROFILE} alt="profile" height='200px' />
                                 </Box>
                             </Box>
                             <Box color="#53B87B" fontSize='40px' fontWeight='700'>Jitendra Kumar Penikelapati</Box>

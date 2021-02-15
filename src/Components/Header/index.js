@@ -54,14 +54,18 @@ function Header(props) {
             mobile()
         }
         else if (scrolled > 0 && windowSize > 769) {
-            if (scrolled >= 15 && scrolled <= 25) {
+            if (scrolled >= 13 && scrolled <= 25) {
                 setStage('about')
             }
             else if (scrolled >= 26 && scrolled <= 48) {
                 setStage('how it works')
             }
             else if (scrolled >= 49 && scrolled <= 85) {
-                setStage('features')
+                if ((windowSize < 1000 && scrolled < 74) || windowSize > 1000) {
+                    setStage('features')
+                } else {
+                    setStage('team')
+                }
             }
             else if (scrolled >= 86 && scrolled <= 95) {
                 setStage('team')

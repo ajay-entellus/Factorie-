@@ -27,6 +27,7 @@ class HowItsWorks extends Component {
                     alignItems='center'
                     justifyContent="space-around"
                     color="#474747"
+                    mx={{ lg: '100px' }}
                     // display='grid'
                     // gridTemplateColumns={{ xs: "1fr ", sm: "1fr", md: "1fr 1fr 1fr" }}
                     textAlign='center'
@@ -34,14 +35,14 @@ class HowItsWorks extends Component {
 
                     <Box display="flex" flexDirection='column' width={{ xs: "250px", md: "310px" }} textAlign='center'>
                         <img src={DATA} alt="" />
-                        <Box mt={{ xs: "24px", md: "40px" }} fontSize={{ xs: '16px', md: '24px' }}>{data}</Box>
+                        <Box mt={{ xs: "24px", md: "40px" }} fontSize={{ xs: '16px', md: '24px' }} >{data}</Box>
                     </Box>
 
                     <Box display="flex"
                         flexDirection='column'
                         width={{ xs: "250px", md: "280px" }}
                         alignItems='center'
-                        marginBottom={{ md: "14vh",lg:"14vh" }}
+                        marginBottom={{ md: "14vh", lg: "14vh" }}
                         paddingY={{ xs: "30px", sm: "30px", md: "0px" }}
                     >
                         <img src={window.innerWidth >= 768 ? HORI : VERTICAL} alt="" />

@@ -23,14 +23,21 @@ class Contact extends Component {
             <Box className={classes.root}
                 py='40px'
                 id={this.props.id}
-            ><Box mx="auto" maxWidth='280px'>
+            >
+                <Box mx="auto" maxWidth='280px'>
 
                     <Box mb={{ md: '35px' }} display={{ xs: "none", sm: "none", md: "block" }}>
                         <img src={FACTORIE} alt="" />
                     </Box>
                     <Box>
-                        {details.map((eachRes) => (<Box display="flex" alignItems="center" marginBottom="20px" key={eachRes.src}>
-                            <img src={eachRes.src} alt="" />
+                        {details.map((eachRes, idx) => (<Box
+                            //  display="flex" 
+                            display='grid'
+                            gridTemplateColumns="1fr 100%"
+                            alignItems="flex-start"
+                            marginBottom="20px"
+                            key={eachRes.src}>
+                            <Box pt={idx === 2 && '5px'}><img src={eachRes.src} alt="" /></Box>
                             <Box marginLeft="12px" maxWidth={{ xs: '200px', md: "300px" }}>{eachRes.desc}</Box>
                         </Box>))}
                     </Box>

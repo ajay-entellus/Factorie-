@@ -8,7 +8,7 @@ class Title extends Component {
             <Box
                 id={this.props.id}
                 color="#1A92E5"
-                fontSize={{ xs: '36px', lg: fontSize || '64px' }}
+                fontSize={{ xs: '38px', md: '60px', lg: fontSize || '60px', }}
                 textAlign={{ xs: "center", md: 'left' }}
                 fontWeight='700'
                 pl={{ xs: '0', md: "100px", lg: "100px" }}

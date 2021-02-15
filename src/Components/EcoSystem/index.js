@@ -40,8 +40,9 @@ class EcoSystem extends Component {
                             <Box display='flex' flexDirection='column' alignItems='center' marginBottom='80px' key={eachEle.desc}>
                                 <Box ><img src={eachEle.src} alt="" /></Box>
                                 <Box
-                                    width="100px"
-                                    paddingTop={{ xs: "16px", md: "30px" }}>
+                                    width="150px"
+                                    paddingTop={{ xs: "16px", md: "30px" }}
+                                    fontSize={{ md: '24px' }}>
                                     {eachEle.desc}</Box>
                             </Box>
                         ))}
