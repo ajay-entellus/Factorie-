@@ -1,7 +1,7 @@
 import { Box, Drawer, withStyles } from '@material-ui/core'
 import React, { useRef, useState } from 'react'
 import { useWindowScroll } from 'react-use'
-import { Link, animateScroll as scroll } from 'react-scroll'
+import { Link } from 'react-scroll'
 import Home from '../Home'
 import HowItsWorks from '../HowItsWorks'
 import EcoSystem from '../EcoSystem'

@@ -48,7 +48,7 @@ class Home extends Component {
                             <Box
                                 color="#293557"
                                 fontSize={{  md: '20px' }}
-                                width={{ md: "400px", lg: "500px" }}
+                                width={{ sm:"100%",md: "350px", lg: "40%" }}
                                 lineHeight="33px"
                             >
                                 Factorie is an industrial IoT-driven <strong>intelligent ecosystem </strong>

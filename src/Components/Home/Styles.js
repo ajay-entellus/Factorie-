@@ -48,13 +48,13 @@ export default {
 
     },
     dashboard: {
-        width: "800px",
+        width: "54%",
         height: "600px",
         position: "absolute", bottom: '0', right: '0',
-        '@media (max-width: 1200px)':
-            { width: "600px", },
-        '@media (max-width: 1024px)':
-            { width: "500px", },
+        // '@media (max-width: 1200px)':
+        //     { width: "600px", },
+        // '@media (max-width: 1024px)':
+        //     { width: "500px", },
         '@media (max-width: 960px)':
         {
             width: "-webkit-fill-available", height: "500px", position: "inherit",

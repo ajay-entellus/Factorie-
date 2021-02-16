@@ -72,9 +72,9 @@ class Form extends Component {
                     : '';
             case 'phone':
                 if (value && this.validateNumber(value)) {
-                    return "Enter only numbers";
+                    return "Enter a valid number";
                 }
-                return !!value && value.length === 10 ? '' : "Enter a valid number";
+                return !!value && value.length === 10 ? '' : "Enter only numbers";
             case 'instrument':
                 return !value ? "Please select Product" : '';
             case 'category':
