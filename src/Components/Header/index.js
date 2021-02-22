@@ -51,7 +51,7 @@ function Header(props) {
       document.documentElement.clientHeight;
     // setscrolled(parseInt((y / height) * 100));
     scrolled = parseInt((y / height) * 100);
-    console.log(`Height in percentage at scroll point is: ${scrolled}`);
+    // console.log(`Height in percentage at scroll point is: ${scrolled}`);
     if (scrolled > 0 && windowSize <= 769) {
       mobile();
     } else if (scrolled > 0 && windowSize > 769) {
@@ -76,7 +76,7 @@ function Header(props) {
   }, [scrolled, windowSize, x, y]);
 
   const mobile = () => {
-    console.log(scrolled);
+    // console.log(scrolled);
     if (scrolled > 0 && windowSize <= 769) {
       if (scrolled <= 9) {
         setStage("");
@@ -176,7 +176,7 @@ function Header(props) {
                 to={eachIteam.linkTo}
                 spy={true}
                 smooth={true}
-                onClick={() => console.log(eachIteam.menu)}
+                // onClick={() => console.log(eachIteam.menu)}
                 style={{ cursor: "pointer" }}
               >
                 <span
